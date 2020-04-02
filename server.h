@@ -5,12 +5,9 @@ using namespace std;
 
 struct CellID
 {
-	string mcc;
-	string mnc;
-	string lac;
-	string cellid;
-	string ip;
-	string port;
+	string imsi;
+	string imeiSV;
+	string dist;
 };
 
 struct Subscriber

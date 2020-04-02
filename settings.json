@@ -1,0 +1,6 @@
+{
+  "localIP": "127.0.0.1",
+  "remoteIP": "127.0.0.1",
+  "localPort": 8080,
+  "remotePort": 8081
+}
