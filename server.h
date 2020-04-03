@@ -28,20 +28,6 @@ struct Geolocation
 	string date;
 };
 
-struct TA
-{
-	string imsi;
-	string imeiSV;
-	string TA;
-	string lev1;
-	string lev2;
-	string lev3;
-	string lev4;
-	string lev5;
-	string lev6;
-	string lev7;
-};
-
 struct BS
 {
 	string name;
@@ -54,4 +40,19 @@ struct BS
 	string antenna;
 	string ip;
 	string port;
+};
+
+struct TA
+{
+	string imsi;
+	string imeiSV;
+	string servingBSName;
+	string servingBSTA;
+	string servingBSLev;
+	BS neighbourBS1;
+	BS neighbourBS2;
+	BS neighbourBS3;
+	BS neighbourBS4;
+	BS neighbourBS5;
+	BS neighbourBS6;
 };
