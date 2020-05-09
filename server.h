@@ -37,6 +37,8 @@ struct BS
 	string cellid;
 	string lat;
 	string lon;
+	string alt;
+	string accuracy;
 	string antenna;
 	string ip;
 	string port;
